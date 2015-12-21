@@ -16,6 +16,49 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: inherit;
 	vertical-align: baseline;
 }
+
+.display_submenu{
+	display: block!important;
+}
+.dynamicUl>li
+{
+	float: left;
+	padding: 10px 20px;
+	background-color: #f5f5f5;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 10px;	
+	cursor: pointer;
+
+}
+
+.hide{
+	display: none;
+}
+
+._module{
+	background-color: grey;
+}
+
+._mylist_li {
+	background-color: grey;
+}
+
+._label_for_search
+{
+	color: red;
+	background-color: grey;
+	padding: 10pt;
+}
+
+._search_text{
+	border: 1px solid red;
+}
+
+.select_odd_table_row
+{
+	background-color: grey;
+}
 /* remember to define focus styles! */
 :focus {
 	outline: 0;

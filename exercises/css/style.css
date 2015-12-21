@@ -7,6 +7,14 @@
 	color: blue;
 }
 
+ul li .menu{
+	float: left;
+
+}
+
+ul li ul.menu {
+list-style-type: none;
+}
 .hint {
 	color: #999;
 }
