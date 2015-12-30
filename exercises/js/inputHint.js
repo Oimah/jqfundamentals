@@ -1,13 +1,11 @@
+var labeltext = $(".label_for_search").text();
+$(".input_text").addClass("hint").val(labeltext)
+$(".label_for_search").remove();
 
-
-  var labeltext = $(".label_for_search").text();
-  $(".input_text").addClass("hint").val(labeltext)
-  $(".label_for_search").remove();
-
-  $(".input_text").bind({
-    focus:removeHint,
-    blur:addHint
-  })
+$(".input_text").bind({
+  focus:removeHint,
+  blur:addHint
+})
 
 function removeHint(){
   if( $(this).val() === labeltext){
