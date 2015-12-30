@@ -1,3 +1,49 @@
+
+.indicator{
+	text-align: center;
+}
+._current{
+	background-color: #000!important;
+}
+.indicator a{
+	padding: 5px;
+	background-color: #f5f5f5;
+	border: 1px solid #000;
+	text-decoration: none;	
+}
+#slider-nav{
+	display: : none;
+	margin-top: 1em;
+}
+
+#slider-nav button{
+	padding: 1em;
+	margin-right: 1em;
+	border-radius: 10em;
+	cursor: pointer;
+}
+
+.slider{
+	width: : 400px;
+	margin: 100px auto 0;
+	height: 200;
+	overflow: hidden;
+	text-align: left;
+}
+.slider ul{
+	width: 10000px;
+	list-style: none;
+}
+
+.slider li p{
+width: 200px;
+display: none;
+}
+
+
+.slider li{
+float: left;
+}
 /* general */
 .current {
 	color: red;

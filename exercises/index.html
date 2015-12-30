@@ -12,7 +12,6 @@
 	<style>
 	/*#blog p.excerpt { display: none; }*/
 	</style>
-
 </head>
 
 <body>
@@ -37,11 +36,8 @@
 			<input type="text" name="q"  class="input_text search_text" />
 			<input type="submit" value="Go" />
 		</form>
-
-		<h1>Eat here.</h1>
-		<p>Lorem ipsum dolor sit amet, <a href="foo.html">consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		<ul id="slideshow">
+		<div class="slider" >
+			<ul id="slideshow">
 			<li >
 				<h2 rel="yummy fruit!">Fruit</h2>
 				<img src="images/fruit.jpg" alt="fruit" />
@@ -58,7 +54,19 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</li>
 		</ul>
+	</div>
+	<div class="indicator">
+		
+	</div>
 
+<div id="slider-nav">
+	<button data-dir="Prev">prev</button>
+	<button data-dir="Next">next</button>
+</div>
+		<h1>Eat here.</h1>
+		<p>Lorem ipsum dolor sit amet, <a href="foo.html">consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
 		<ul id="myList">
 			<li>List item 1</li>
 			<li id="listItem_2" class="bar">List item 2</li>
@@ -97,7 +105,7 @@
 			<form action="specials.html" method="get">
 				<ul>
 					<li>
-						<select name="day">
+						<select name="day" id="day" >
 							<option value="" selected>Select</option>
 							<option value="monday">Monday</option>
 							<option value="tuesday">Tuesday</option>
@@ -109,9 +117,15 @@
 					</li>
 				</ul>
 			</form>
+			<div>
+				<h2 class="title"></h2>
+				<div class="test"	></div>
+				<img src=""  class="img" />
+			</div>
 		</div>
 
-		<table id="fruits">
+	<br>
+		<table id="fruits" 
 			<thead>
 				<tr>
 					<th>Apples</th>
@@ -160,13 +174,12 @@
 <script src="js/inputHint.js"></script>
 <script src="js/load.js"></script>
 <script src="js/tabs.js"></script>
-
 <script src="js/navigation.js"></script>
-
-<!--
-<script src="js/blog.js"></script>
 <script src="js/specials.js"></script>
 <script src="js/slideshow.js"></script>
+<!--
+<script src="js/blog.js"></script>
+
 <script src="js/ions/inputHint.js"></script>
 <script src="js/tabs.js"></script>
 -->
